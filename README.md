@@ -35,15 +35,11 @@ This project demonstrates building a RESTful API with Python and Flask. The foll
 Developer machine creating a Python virtual environment and installing dependencies (Flask, SQLAlchemy).  
 Arrows show Python environment → installed packages → ready for Flask app development.
  
-![Step 1: Set Up Development Environment](./images/step1_dev_env.png)
-
 ---
 
 ### **Step 2: Initialize Flask App**  
   Flask app folder structure (`app.py`, `routes.py`, `models.py`).  
   Arrow from app initialization → API object creation.
-
-![Step 2: Initialize Flask App](./images/step2_flask_init.png)
 
 ---
 
@@ -52,16 +48,12 @@ Arrows show Python environment → installed packages → ready for Flask app de
   Table representation for `Item` with `id`, `name`, `price` columns.  
   Arrow representing app → database model mapping.
 
-![Step 3: Create Database Models](./images/step3_db_models.png)
-
 ---
 
 ### **Step 4: Build API Endpoints**
   Client requests (POST, GET, PUT, DELETE) hitting Flask API endpoints (`/item`, `/item/<id>`).  
   Arrow showing Flask app processing requests and returning responses.
  
-![Step 4: Build API Endpoints](./images/step4_api_endpoints.png)
-
 ---
 
 ### **Step 5: Test API** 
@@ -69,30 +61,21 @@ Arrows show Python environment → installed packages → ready for Flask app de
   Responses coming back to client.  
   Optional: include success/failure icons.
 
-📸 **Diagram:**  
-![Step 5: Test API](./images/step5_test_api.png)
-
 ---
 
-### **Step 6: Add Authentication (Optional)**
-- **Diagram Concept:**  
+### **Step 6: Add Authentication 
   Client requests → Flask API → JWT token validation → database/user verification.  
   Arrow returning token to client.  
   Label components clearly (Client, Flask API, JWT Auth, Database).
-
-📸 **Diagram:**  
-![Step 6: Add Authentication](./images/step6_auth.png)
 
 ---
 
 ### **Step 7: Deploy API**
 - **Diagram Concept:**  
-  API deployed to cloud (Heroku or Azure).  
+  API deployed to cloud (Azure).  
   Client sends requests over internet → cloud-hosted API → database.  
   Highlight accessibility for testing.
 
-📸 **Diagram:**  
-![Step 7: Deploy API](./images/step7_deploy.png)
 
 
 
