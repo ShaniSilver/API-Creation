@@ -24,8 +24,14 @@ This project demonstrates the design and development of a RESTful API using Pyth
 
 #### 1. Set Up Development Environment
 - Created Python virtual environment and installed dependencies.
+- <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/f73db179-0b55-4275-b4f9-fed86cbf231f" />
+
 ```bash
 python -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
 pip install Flask Flask-RESTful SQLAlchemy
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/6fe5fd4a-2625-49dd-8772-626ee36a67b5" />
+
+
+
