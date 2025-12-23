@@ -44,7 +44,7 @@ Arrows show Python environment → installed packages → ready for Flask app de
 ---
 
 ### **Step 3: Create Database Models** 
-  Flask app connected to database (SQLite/MySQL).  
+  Flask app connected to database (MySQL).  
   Table representation for `Item` with `id`, `name`, `price` columns.  
   Arrow representing app → database model mapping.
 
@@ -63,7 +63,7 @@ Arrows show Python environment → installed packages → ready for Flask app de
 
 ---
 
-### **Step 6: Add Authentication 
+### Step 6: Add Authentication 
   Client requests → Flask API → JWT token validation → database/user verification.  
   Arrow returning token to client.  
   Label components clearly (Client, Flask API, JWT Auth, Database).
